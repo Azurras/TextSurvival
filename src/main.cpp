@@ -3,10 +3,11 @@ using namespace std;
 
 #include "Player.h"
 
-int main() {
-	Player player1;
+int main()
+{
+	Player player;
 
-	cout << player1.getLevel() << endl;
+	cout << player.get_level() << endl;
 
 	cout << "Hello World." << endl;
 
